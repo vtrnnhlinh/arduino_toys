@@ -77,15 +77,15 @@ void send_frame() {
   // Fill tx_data array
   tx_data[0] = 0x08;   // Device code (fixed)
   tx_data[1] = 0x61;   // Sequence code (fixed)
-  tx_data[2] = 0x00;   // Example tx_data
-  tx_data[3] = 0xFC;   // Example tx_data
+  tx_data[2] = 0x0A;   // Example tx_data
+  tx_data[3] = 0x40;   // Example tx_data
   tx_data[4] = 0x01;   // Example tx_data
   tx_data[5] = 0x01;   // Example tx_data
-  tx_data[6] = 0x00;   // Example tx_data
+  tx_data[6] = 0x32;   // Example tx_data
   tx_data[7] = 0x08;   // Example tx_data
   tx_data[8] = 0x01;   // Example tx_data
   tx_data[9] = 0x32;   // Example tx_data
-  tx_data[10] = 0x00;  // Example tx_data
+  tx_data[10] = 0x50;  // Example tx_data
 
   // Calculate checksum
   byte crc = 0;
