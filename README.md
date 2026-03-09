@@ -1,2 +1,3 @@
-# arduino_toys
-My collection of Arduino code to test and run trivia things
+# embedded_toys
+
+My code snippets of random embedded codes
